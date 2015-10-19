@@ -37,6 +37,7 @@ notifications:
     skip_join: true
 
 script:
+  - env | sort
   - phpunit
 
 # vim:ts=2:sw=2:et
